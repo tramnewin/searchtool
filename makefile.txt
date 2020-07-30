@@ -1,14 +1,14 @@
 #Place this makefile in the same directory as your all .cpp and .h files
 #at the command prompt
-#make ./rockpaperscissors 
+#make ./searchtool 
 
 # for use with C++ files
 .SUFFIXES: .cpp
 
-SOURCES = main.cpp play1.cpp play2.cpp game.cpp thegame.cpp 
+SOURCES = main.cpp 
 
-######Change from matrix to rockpaperscissors .#######
-TARGET = rockpaperscissors
+######Change from matrix to searchtool .#######
+TARGET = searchtool
 
 #-------Do Not Change below this line-------------
 #Compile with g++
